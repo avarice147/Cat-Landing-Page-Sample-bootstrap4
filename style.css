@@ -9,7 +9,7 @@
 }
 
 body {
-	background: url('images/cat.jpeg');
+	background: url('images/cat2.jpeg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -47,6 +47,15 @@ hr {
 	color: white;
 	border-top: 1px solid #f8f8f8;
 	border-bottom: 1px solid #f8f8f8;
+}
+
+/*showcase*/
+#showcase {
+	background: url('images/cat.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
 }
 
 
