@@ -1,6 +1,8 @@
 /*Global*/
 
 
+
+
 /*Homepage*/
 
 #content {
@@ -8,14 +10,6 @@
 	padding-top: 30%;
 }
 
-body {
-	background: url('images/cat2.jpeg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	font-family: 'Playfair Display', serif;
-	height: 100vh;
-}
 
 
 
@@ -60,34 +54,86 @@ hr {
 
 
 /*Login Page*/
-#login-section-2{
+#login-section-2 {
 	padding-top: 20%;
 	color: white;	
+	background: url('images/cat2.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	font-family: 'Playfair Display', serif;
+	height: 100vh;
 }
 
 small#emailHelp {
-	color: black;
+	color: grey;
 }
 
 /*Sign up*/
 
 
 
+/*Carousel*/
 
 
+/*global*/
+.carousel-inner {
+	height: 100vh;
+
+}
+
+/*Carousel-1*/
+#carousel-1 {
+	position: absolute;
+    text-align: left;
+    top: 15%;
+    margin-left: 5%;
+    width: 50%;
+
+   
+}
 
 
+#carousel-1 h5 {
+	font-size: 2em;
+	
+}
+
+/*Carousel-2*/
 
 
+#carousel-2 {
+	position: absolute;
+    text-align: right;
+   	top: 10%;
+    margin-left: 25%;
+    width: 50%;
+   
+}
 
 
+#carousel-2 h5 {
+	font-size: 2em;
+	
+}
 
 
+/*Carousel-3*/
+
+#carousel-3 {
+	position: absolute;
+    text-align: center;
+   	top: 10%;
+    margin-left: 10%;
+    width: 50%;
+   
+}
 
 
-
-
-
+#carousel-3 h5 {
+	font-size: 2em;
+	
+}
 
 
 
