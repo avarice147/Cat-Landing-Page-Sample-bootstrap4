@@ -7,7 +7,7 @@
 
 #content {
 	text-align: center;
-	padding-top: 30%;
+	padding-top: 20%;
 }
 
 
@@ -34,13 +34,18 @@ hr.style-five {
 }
 hr.style-five:after {  /* Not really supposed to work, but does */
     content: "\00a0";  /* Prevent margin collapse */
+    width: 100%;
 }
 
 hr {
-	width: 600px;
+	width: 50%;
 	color: white;
 	border-top: 1px solid #f8f8f8;
 	border-bottom: 1px solid #f8f8f8;
+}
+
+span {
+	color: teal;
 }
 
 /*showcase*/
@@ -50,12 +55,13 @@ hr {
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
+	
 }
 
 
 /*Login Page*/
 #login-section-2 {
-	padding-top: 20%;
+	padding-top: 15%;
 	color: white;	
 	background: url('images/cat2.jpeg');
 	background-repeat: no-repeat;
@@ -69,6 +75,11 @@ small#emailHelp {
 	color: grey;
 }
 
+
+a:hover {
+	color: teal;
+}
+
 /*Sign up*/
 
 
@@ -78,7 +89,7 @@ small#emailHelp {
 
 /*global*/
 .carousel-inner {
-	height: 100vh;
+	height: 40rem;
 
 }
 
@@ -134,6 +145,40 @@ small#emailHelp {
 	font-size: 2em;
 	
 }
+
+
+/* ABOUT */
+
+
+#about {
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	padding: 25px 10px 25px 10px;
+}
+
+#about h2 {
+	color: teal;
+}
+
+#about p {
+	line-height: 1.5em;
+	color: grey;
+}
+
+
+div.col-xs-12,.col-sm-4,.col-md-4,.col-lg-4 {
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+
+}
+
+
+#about_color {
+	background-color: teal;
+}
+
+
+
 
 
 
